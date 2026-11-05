@@ -24,9 +24,41 @@ And to create an unordered list, we simply put a star (`*`) before each item.
 
 ## 1. Getting Data
 
-Use two hashtag symbols (`##`) to create a level 2 heading like this one.
+## Short Brief
+For this data on financial security, I decided to do a quick analysis of the percentage of people who live in Ottawa-Gatineau. I wanted to see what percentage of those people answered (1) “very easy or easy” to the question, “In the past 12 months—how difficult or easy was it for your household to meet its financial needs in terms of transportation—housing- food- clothing and other necessary expenditures?” 
 
-To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
+## Data Link
+ https://open.ottawa.ca/datasets/7dc44d40bbaa4a85a6123a9c825b0994_0/explore
+
+3- Importing data from Google sheets:
+I firstly clicked on “Files” in the menu bar, then “Import”. A pop-up window appeared and I clicked on “Upload”, then I browsed for my data file on my desktop.
+
+## Screen Capture
+
+
+## Public Link to m Google Sheets
+https://docs.google.com/spreadsheets/d/1UtVkUDePxuuj5qoNmi4nnKvAze5fXYie_CfPQqkrhag/edit?usp=sharing
+
+## General Observation
+there are 18 columns and 385 rows in the data set.
+Although the data appears almost organized and consistent, it requires some cleaning to enhance its simplicity, precision, and overall quality.
+
+## Specific Observations
+Column A displays the dates of data collection, which span from 2020 to 2024.
+Column B reveals the geographical location, indicating that all data pertains to the Ottawa-Gatineau region.
+Column C represents the question in both English and French.
+Column D shows the answer response to the question, which varies between 1 and 3.
+1 - is very easy or easy. 
+2 - neither difficult nor easy. 
+3- is very difficult or difficult.\
+## Surprise
+  What surprised me when I looked at the data was columns H and I. I didn’t understand what they represented, since the title for them was F95ucl, which made no sense to me!
+
+
+## Questions
+does subgroup column F really matter for the dataset ?
+Column M in the Object doesn’t seem necessary in the data set because it only counts the numbers in the column without providing any additional information.  
+
 
 ![](import-screen-capture.png)<br>
 *Figure 1: The "Import file" prompt on Google Sheets.*
