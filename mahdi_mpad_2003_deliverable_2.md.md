@@ -4,25 +4,7 @@
 **Presented to Jean-Sébastien Marier**<br>
 
 # Deliverable 2: Exploratory Data Analysis (EDA)
-
-Use one hashtag symbol (`#`) to create a level 1 heading like this one.
-
-## Foreword
-
-For this assignment, you must clean and analyze the dataset from Deliverable 1, create exploratory charts/visualizations, and identify a potential story. Your assignment must clearly detail your process. You are expected to write about 1,000-1,200 words, and to include several screen captures showing the different steps you went through. Your assignment must be written with the Markdown format and submitted on GitHub.
-
-I have been assigning different versions of this project to my digital journalism and data storytelling students for a few years now. Its structure was inspired by the main sections/chapters of [*The Data Journalism Handbook*](https://datajournalism.com/read/handbook/one/). This version was further inspired by the [Key Capabilities in Data Science](https://extendedlearning.ubc.ca/programs/key-capabilities-data-science) program offered by the University of British Columbia (UBC).
-
-**Here are some useful resources for this assignment:**
-
-* [GitHub's *Basic writing and formatting syntax* page](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* [The template repository for this assignment in case you delete something by mistake](https://github.com/jsmarier/jou4100_jou4500_mpad2003_project2_template)
-
-Did you notice how to create a hyperlink? In Markdown, we put the clickable text between square brackets and the actual URL between parentheses.
-
-And to create an unordered list, we simply put a star (`*`) before each item.
-
-## 1. Getting Data
+# 1. Getting Data
 
 ## Short Brief
 For this data on financial security, I decided to do a quick analysis of the percentage of people who live in Ottawa-Gatineau. I wanted to see what percentage of those people answered (1) “very easy or easy” to the question, “In the past 12 months—how difficult or easy was it for your household to meet its financial needs in terms of transportation—housing- food- clothing and other necessary expenditures?” 
@@ -63,16 +45,6 @@ Column M in the Object doesn’t seem necessary in the data set because it only 
 ![](import-screen-capture.png)<br>
 *Figure 1: The "Import file" prompt on Google Sheets.*
 
-**Here are examples of functions and lines of code put in grey boxes:**
-
-1. If you name a function, put it between "angled" quotation marks like this: `IMPORTHTML`.
-1. If you want to include the entire line of code, do the same thing, albeit with your entire code: `=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)`.
-1. Alternatively, you can put your code in an independent box using the template below:
-
-``` r
-=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)
-```
-This also shows how to create an ordered list. Simply put `1.` before each item.
 
 ## 2. Understanding Data
 
@@ -80,7 +52,23 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
 
-Insert text here.
+### Validity Analysis
+After a quick scan of the data, I kind of started analyzing what could and couldn't be valid in the data set. No actions. I just was scanning and analyzing what should or what I could do and here is the detailed analysis.
+First, I noticed that every row appears twice, once in English and once in French. So I only used the 192-English rows, so nothing gets counted twice.
+
+### Column G, Percent_Pourcent. 
+All the values were numbers between 0 and 100, and none were missing. I also checked that the three answers for each group added up to 100% in ach year. They all did, give or take 0.1% from rounding. I found six values that stood out from the rest, and all of them were from 2021. For example, only 7.6% of people aged 65 and older said it was hard to pay for their needs. I kept these values because they probably show what really happened in 2021, not mistakes.
+
+### Column J, Data_quality_Qualité_des_données.
+At first, this column looked like it had 144 empty cells. But I learned that an empty cell means the number is reliable. The other 48 rows have an “E,” which means “use with caution.” Half of these are from 2021, and most are in the age groups. This is likely because fewer people were surveyed in each age group.
+
+
+### Columns H & I , F95lcl & F95ucl. 
+These columns show the range where the true value probably falls. Every percentage was inside its range, and nothing was missing. But some ranges were very wide. For people aged 35 to 44 in 2021, the range was 25 points wide. This means small differences between groups may not be real.
+
+I also found two small problems. The “Group” and “Subgroup” column names are switched, and commas in the text were replaced with hyphens.
+
+Overall, the data is complete and makes sense. However, it is less exact for small groups and for 2021. I will keep this in mind when I study the results.
 
 Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 
