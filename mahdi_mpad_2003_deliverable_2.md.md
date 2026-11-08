@@ -78,11 +78,15 @@ As seen in Bounegru & Gray (2011), a data visualization should be clear...
 
 ### 2.2. Cleaning Data
 
-Insert text here.
+I cleaned my data with three methods. First, I froze the header row and made it bold so it stays visible when I scroll. Second, I deleted two columns I didn’t need: ObjectId (column M) and Notes_Remarques, which only repeats the “E” flag. Finally, I swapped the Group and Subgroup values because they were in the wrong columns, and I centered the Year column.
+
+"insert the picture of the screen shot "
 
 ### 2.3. Analyzing Data
 
-Insert text here.
+ 
+
+I chose Year, Response, and Subgroup because together they show who is struggling and how this changed over time. Overall financial difficulty stood out: it almost doubled from 16.3% in 2021 to 29.4% in 2024. Difficulty rose for every group, especially people in their late thirties and early forties (19.2% to 37.5%) and people with a disability (20.2% to 37.2%), though some peaked in 2023.
 
 **This section should include a screen capture of your pivot table, like so:**
 
