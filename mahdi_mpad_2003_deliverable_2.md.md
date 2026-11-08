@@ -108,8 +108,6 @@ I am considering conducting an interview with Rachael Wilson, the CEO of the Ott
 
 ## 4. References
 
-4. References
-
 City of Ottawa. (2026). Financial security [Data set]. Open Ottawa. https://open.ottawa.ca/maps/7dc44d40bbaa4a85a6123a9c825b0994
 
 Ottawa Food Bank. (2025). Year in review 2024–2025. https://www.ottawafoodbank.ca/year-in-review-2024-2025/
