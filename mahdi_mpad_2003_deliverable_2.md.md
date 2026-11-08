@@ -12,7 +12,7 @@ For this data on financial security, I decided to do a quick analysis of the per
 ## Data Link
  https://open.ottawa.ca/datasets/7dc44d40bbaa4a85a6123a9c825b0994_0/explore
 
-3- Importing data from Google sheets:
+## Importing Data:
 I firstly clicked on “Files” in the menu bar, then “Import”. A pop-up window appeared and I clicked on “Upload”, then I browsed for my data file on my desktop.
 
 ## Screen Capture
@@ -100,11 +100,27 @@ I chose Year, Response, and Subgroup because together they show who is strugglin
 
 ## 3. Delivering Data
 
-Insert text here.
+I am interested in exploring the rapid increase in financial distress experienced by Ottawa residents. According to the latest statistics, the percentage of people struggling to make ends meet almost doubled, rising from 16.3% in 2021 to a staggering 29.4% in 2024. The hardest hit groups were individuals in their late thirties and early forties, as well as those living with a disability. This reflects a national trend: financial difficulties across Canada roughly doubled between 2021 and 2025 (Pinault & Foran, 2026).
+
+In order to tell this tale, I must first unravel the underlying causes. Statistics on rental rates, food costs, and salaries in Ottawa would reveal the factors at play. I would also want newer Ottawa data and larger samples for the age groups, since many of those results are flagged “use with caution.”
+
+I am considering conducting an interview with Rachael Wilson, the CEO of the Ottawa Food Bank. The organization’s network saw a staggering 101% increase in visits in the 2024–2025 fiscal year, reaching an impressive total of 588,866 visits. I would also like to talk to Ottawa Public Health, a disability advocacy group, as well as parents in their thirties and forties who are grappling with the challenges of housing and childcare costs. CTV News recently reported that seniors and two-parent families are turning to the food bank for assistance in greater numbers (Raymond, 2025).
 
 ## 4. References
 
-Include a list of your references here. Please follow [APA](https://apastyle.apa.org/style-grammar-guidelines/references) or [MLA](https://www.mla.org/MLA-Style) guidelines for references. Hanging paragraphs aren't required though.
+4. References
+
+City of Ottawa. (2026). Financial security [Data set]. Open Ottawa. https://open.ottawa.ca/maps/7dc44d40bbaa4a85a6123a9c825b0994
+
+Ottawa Food Bank. (2025). Year in review 2024–2025. https://www.ottawafoodbank.ca/year-in-review-2024-2025/
+
+Pinault, L., & Foran, H. (2026, April 9). Stretching the loonie: A time series analysis of financial difficulty and quality of life. Insights on Canadian Society. Statistics Canada. https://www150.statcan.gc.ca/pub/75-006-x/2026002/article/00002-eng.htm
+
+Raymond, T. (2025, November 14). Two-parent families, seniors increasingly turning to Ottawa Food Bank: Report. CTV News. https://www.ctvnews.ca/ottawa/article/two-parent-families-seniors-increasingly-turning-to-ottawa-food-bank-report/
+
+Statistics Canada. (2020). Data accuracy and validation: Methods to ensure the quality of data [Video]. https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008
+
+Statistics Canada. (2022, August 2). Statistically speaking: E does not always stand for excellent. StatCan Plus. https://www.statcan.gc.ca/o1/en/plus/1501-statistically-speaking-e-does-not-always-stand-excellent
 
 **Here's an example:**
 
