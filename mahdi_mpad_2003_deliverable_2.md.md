@@ -43,8 +43,6 @@ does subgroup column F really matter for the dataset ?
 Column M in the Object doesn’t seem necessary in the data set because it only counts the numbers in the column without providing any additional information.  
 
 
-![](import-screen-capture.png)<br>
-*Figure 1: The "Import file" prompt on Google Sheets.*
 
 
 ## 2. Understanding Data
