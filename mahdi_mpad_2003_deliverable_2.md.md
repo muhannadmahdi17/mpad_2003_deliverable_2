@@ -1,6 +1,6 @@
-**Date**<br>
-**Course Code & Course Name**<br>
-**Student's First Name & Last Name**<br>
+**November 12, 2026**<br>
+**MPAD2003A Introductory Data Storytelling**<br>
+**Muhannad Mahdi**<br>
 **Presented to Jean-Sébastien Marier**<br>
 
 # Deliverable 2: Exploratory Data Analysis (EDA)
@@ -16,6 +16,7 @@ For this data on financial security, I decided to do a quick analysis of the per
 I firstly clicked on “Files” in the menu bar, then “Import”. A pop-up window appeared and I clicked on “Upload”, then I browsed for my data file on my desktop.
 
 ## Screen Capture
+![](data-without-cleaning.png)
 
 
 ## Public Link to m Google Sheets
